@@ -24,9 +24,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B539074F2D1D1AC60069F56A /* Stream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stream.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B53907602D1D1AC80069F56A /* StreamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StreamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B539076A2D1D1AC80069F56A /* StreamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StreamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B539074F2D1D1AC60069F56A /* ZinemaStream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZinemaStream.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B53907602D1D1AC80069F56A /* ZinemaStreamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZinemaStreamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B539076A2D1D1AC80069F56A /* ZinemaStreamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZinemaStreamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -85,9 +85,9 @@
 		B53907502D1D1AC60069F56A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B539074F2D1D1AC60069F56A /* Stream.app */,
-				B53907602D1D1AC80069F56A /* StreamTests.xctest */,
-				B539076A2D1D1AC80069F56A /* StreamUITests.xctest */,
+				B539074F2D1D1AC60069F56A /* ZinemaStream.app */,
+				B53907602D1D1AC80069F56A /* ZinemaStreamTests.xctest */,
+				B539076A2D1D1AC80069F56A /* ZinemaStreamUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B539074E2D1D1AC60069F56A /* Stream */ = {
+		B539074E2D1D1AC60069F56A /* ZinemaStream */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B53907742D1D1AC80069F56A /* Build configuration list for PBXNativeTarget "Stream" */;
+			buildConfigurationList = B53907742D1D1AC80069F56A /* Build configuration list for PBXNativeTarget "ZinemaStream" */;
 			buildPhases = (
 				B539074B2D1D1AC60069F56A /* Sources */,
 				B539074C2D1D1AC60069F56A /* Frameworks */,
@@ -110,16 +110,16 @@
 			fileSystemSynchronizedGroups = (
 				B53907512D1D1AC60069F56A /* Stream */,
 			);
-			name = Stream;
+			name = ZinemaStream;
 			packageProductDependencies = (
 			);
 			productName = Stream;
-			productReference = B539074F2D1D1AC60069F56A /* Stream.app */;
+			productReference = B539074F2D1D1AC60069F56A /* ZinemaStream.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B539075F2D1D1AC80069F56A /* StreamTests */ = {
+		B539075F2D1D1AC80069F56A /* ZinemaStreamTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B53907772D1D1AC80069F56A /* Build configuration list for PBXNativeTarget "StreamTests" */;
+			buildConfigurationList = B53907772D1D1AC80069F56A /* Build configuration list for PBXNativeTarget "ZinemaStreamTests" */;
 			buildPhases = (
 				B539075C2D1D1AC80069F56A /* Sources */,
 				B539075D2D1D1AC80069F56A /* Frameworks */,
@@ -133,16 +133,16 @@
 			fileSystemSynchronizedGroups = (
 				B53907632D1D1AC80069F56A /* StreamTests */,
 			);
-			name = StreamTests;
+			name = ZinemaStreamTests;
 			packageProductDependencies = (
 			);
 			productName = StreamTests;
-			productReference = B53907602D1D1AC80069F56A /* StreamTests.xctest */;
+			productReference = B53907602D1D1AC80069F56A /* ZinemaStreamTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B53907692D1D1AC80069F56A /* StreamUITests */ = {
+		B53907692D1D1AC80069F56A /* ZinemaStreamUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B539077A2D1D1AC80069F56A /* Build configuration list for PBXNativeTarget "StreamUITests" */;
+			buildConfigurationList = B539077A2D1D1AC80069F56A /* Build configuration list for PBXNativeTarget "ZinemaStreamUITests" */;
 			buildPhases = (
 				B53907662D1D1AC80069F56A /* Sources */,
 				B53907672D1D1AC80069F56A /* Frameworks */,
@@ -156,11 +156,11 @@
 			fileSystemSynchronizedGroups = (
 				B539076D2D1D1AC80069F56A /* StreamUITests */,
 			);
-			name = StreamUITests;
+			name = ZinemaStreamUITests;
 			packageProductDependencies = (
 			);
 			productName = StreamUITests;
-			productReference = B539076A2D1D1AC80069F56A /* StreamUITests.xctest */;
+			productReference = B539076A2D1D1AC80069F56A /* ZinemaStreamUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -172,6 +172,7 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
+				ORGANIZATIONNAME = Zinema;
 				TargetAttributes = {
 					B539074E2D1D1AC60069F56A = {
 						CreatedOnToolsVersion = 16.2;
@@ -186,7 +187,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B539074A2D1D1AC60069F56A /* Build configuration list for PBXProject "Stream" */;
+			buildConfigurationList = B539074A2D1D1AC60069F56A /* Build configuration list for PBXProject "ZinemaStream" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +201,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B539074E2D1D1AC60069F56A /* Stream */,
-				B539075F2D1D1AC80069F56A /* StreamTests */,
-				B53907692D1D1AC80069F56A /* StreamUITests */,
+				B539074E2D1D1AC60069F56A /* ZinemaStream */,
+				B539075F2D1D1AC80069F56A /* ZinemaStreamTests */,
+				B53907692D1D1AC80069F56A /* ZinemaStreamUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +259,12 @@
 /* Begin PBXTargetDependency section */
 		B53907622D1D1AC80069F56A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B539074E2D1D1AC60069F56A /* Stream */;
+			target = B539074E2D1D1AC60069F56A /* ZinemaStream */;
 			targetProxy = B53907612D1D1AC80069F56A /* PBXContainerItemProxy */;
 		};
 		B539076C2D1D1AC80069F56A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B539074E2D1D1AC60069F56A /* Stream */;
+			target = B539074E2D1D1AC60069F56A /* ZinemaStream */;
 			targetProxy = B539076B2D1D1AC80069F56A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -392,8 +393,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Stream/Preview Content\"";
+				DEVELOPMENT_TEAM = C4LVF7JM32;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Zinema Stream";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.video";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -404,10 +408,10 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Zinema.Stream;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -416,7 +420,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				XROS_DEPLOYMENT_TARGET = 2.2;
+				XROS_DEPLOYMENT_TARGET = 1.3;
 			};
 			name = Debug;
 		};
@@ -431,6 +435,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Stream/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Zinema Stream";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.video";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -441,10 +447,10 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Zinema.Stream;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -453,7 +459,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				XROS_DEPLOYMENT_TARGET = 2.2;
+				XROS_DEPLOYMENT_TARGET = 1.3;
 			};
 			name = Release;
 		};
@@ -474,7 +480,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stream.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Stream";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZinemaStream.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZinemaStream";
 				XROS_DEPLOYMENT_TARGET = 2.2;
 			};
 			name = Debug;
@@ -496,7 +502,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stream.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Stream";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZinemaStream.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZinemaStream";
 				XROS_DEPLOYMENT_TARGET = 2.2;
 			};
 			name = Release;
@@ -546,7 +552,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B539074A2D1D1AC60069F56A /* Build configuration list for PBXProject "Stream" */ = {
+		B539074A2D1D1AC60069F56A /* Build configuration list for PBXProject "ZinemaStream" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B53907722D1D1AC80069F56A /* Debug */,
@@ -555,7 +561,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B53907742D1D1AC80069F56A /* Build configuration list for PBXNativeTarget "Stream" */ = {
+		B53907742D1D1AC80069F56A /* Build configuration list for PBXNativeTarget "ZinemaStream" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B53907752D1D1AC80069F56A /* Debug */,
@@ -564,7 +570,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B53907772D1D1AC80069F56A /* Build configuration list for PBXNativeTarget "StreamTests" */ = {
+		B53907772D1D1AC80069F56A /* Build configuration list for PBXNativeTarget "ZinemaStreamTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B53907782D1D1AC80069F56A /* Debug */,
@@ -573,7 +579,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B539077A2D1D1AC80069F56A /* Build configuration list for PBXNativeTarget "StreamUITests" */ = {
+		B539077A2D1D1AC80069F56A /* Build configuration list for PBXNativeTarget "ZinemaStreamUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B539077B2D1D1AC80069F56A /* Debug */,
